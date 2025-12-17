@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html>
+<html lang="PL">     
+  <head>         
+    <meta charset="UTF-8" >         
+    <title>Zadanie kwiaty - Michał Turkosz</title>         
+    <meta name="keywords" content="tło, matka, kwiaty" >         
+    <meta name="description" content="Zadanie kwiaty" >         
+    <meta name="author" content="Michał Turkosz" >         
+    <meta name="robots" content="index,follow" >
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+    body{
+      margin: 0;
+      padding: 0;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #pojemnik{
+      width: 100%;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+    header h1{
+      margin: 0px;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 45px;
+      font-weight: bold;
+      color: white;
+      background-image: url("tlo-wzor.png");
+      background-repeat: repeat-x;
+      border-bottom: 1px solid greenyellow;
+      padding: 0px 0px 10px;
+    }
+
+    header::first-letter{
+      font-size: 55px;
+    }
+   
+    nav{
+      display: flex;
+      align-items: center;
+      width:20%;
+      float:left;
+      min-width: none;
+      justify-content: center;
+    }
+
+    nav ul{
+      width: 80%;
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+    }
+
+    nav ul li{
+      width: 100%;
+      margin: 10px 0px;
+    }
+
+    nav a{
+      text-transform: uppercase;
+      display: block;
+      border: 3px outset black;
+      border-bottom: none;
+      width: 100%;
+      padding: 5px 15px 5px 15px;
+      background-color: rgb(210, 208, 208);
+      text-decoration: none;
+      color:rgb(32, 32, 32);
+      text-align: center;
+      font-weight: 600;
+    }
+
+    a:link{
+      color: blue;
+      background-color: rgb(155, 155, 155);
+    }
+
+    a:visited{
+      color: blue;
+      background-color: rgb(155, 155, 155);
+    }
+
+    a:hover{
+      color: black;
+      background-color: rgb(60, 175, 252);
+    }
+    a:active{
+      color:black;
+      background-color: rgb(100, 219, 255);
+    }
+
+    #content{
+      width:80%;
+      float:right;
+      border-left: 1px solid greenyellow;
+      padding: 10px;
+    }
+    h2{
+      margin: 7px 0px;
+      font-size: 34px;
+      color: rgb(64, 99, 130);
+      letter-spacing: 5px;
+    }
+    h3{
+      margin: 5px 0px 0px 0px;
+      font-size: 20px;
+      color: rgb(163, 165, 56);
+    }
+    p{
+      margin: 0px;
+      text-indent: 25px;
+      font-size: 15px;
+    }
+    p::first-line{
+      text-decoration: underline;
+    }
+    p::first-letter{
+      font-size: 30px;
+      font-weight: 600;
+    }
+    ul{
+      list-style: square;
+      margin: 10px 0px 0px 5px;
+      font-size: 15px;
+    }
+    .kwiatki{
+      text-indent: 0px;
+      letter-spacing: 3px;
+      margin: 5px 0px;
+      font-size: 15px;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-decoration: underline;
+      color: rgb(124, 195, 227);
+    }
+    .kwiatki::first-letter{
+      font-size: 35px;
+    }
+    footer{
+      border-top: 1px solid rgb(64, 99, 130);
+      text-align: left;
+      clear: both;
+      text-decoration: underline;
+      font-size: 10x;
+      padding: 10px;
+    }
+    footer p{
+      text-indent: 0px;
+      margin: 0px;
+    }
+    footer::first-letter{
+      font-size: 25px;
+    }
+  </style>
+</head>     
+<body>
+<div id=pojemnik>
+<header>
+  <h1>Kwiaty moja pasja</h1>
+</header>
+<nav>
+ <ul>
+    <li><a href="#">Strona główna</a></li>
+    <li><a href="#">Kwiaty</a></li>
+    <li><a href="#">Galeria</a></li>
+  </ul>
+</nav>
+<div id="content">
+  <h2>Kwiaty w Polsce </h2>
+  <p class="kwiatki">Uwaga !!!! Różanecznik złoocisty</p>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure.</p>
+  <h3>Powrót do natury w mieście </h3>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure:</p>
+  <ul>
+  <li>Euismod</li>
+  <li>Laoreet</li>
+  <li>Exerci</li>
+  </ul>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure.</p>
+  <h3>Hodowla </h3>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure.</p>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure.</p>
+  <h3>Podlewanie</h3>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+
+</div>
+<footer>
+  <p>Copyright 2013 Jan Kowalski</p>
+</footer>
+</div>
+</body>
+</html>
